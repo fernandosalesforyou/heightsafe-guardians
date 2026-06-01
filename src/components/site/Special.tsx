@@ -16,7 +16,7 @@ export function Special() {
       <SectionTitle
         eyebrow="Soluções especiais"
         title="Projetos para diferentes segmentos"
-        subtitle="Desenvolvemos soluções adaptadas para diferentes setores, sempre considerando custo, eficiência e segurança."
+        subtitle="Desenvolvemos sistemas de linha de vida para telhados em diversos segmentos, garantindo segurança, conformidade e excelente custo-benefício."
         light
       />
       <div className="mt-12 grid gap-8 lg:grid-cols-5 lg:items-start">

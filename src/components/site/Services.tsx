@@ -32,7 +32,7 @@ export function Services() {
       <SectionTitle
         eyebrow="Serviços"
         title="Solução completa do projeto à execução"
-        subtitle="Oferecemos um conjunto completo de serviços técnicos para garantir segurança, conformidade e eficiência."
+        subtitle="Oferecemos um conjunto completo de serviços técnicos para garantir segurança, conformidade e eficiência. Cada projeto de linha de vida para telhado é desenvolvido conforme a estrutura existente, o tipo de cobertura e os riscos identificados durante a análise técnica."
       />
       <ul className="mt-16 mx-auto grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl">
         {services.map((s) => (
