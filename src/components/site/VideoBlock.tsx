@@ -35,7 +35,7 @@ export function ProjectVideos() {
 export function InspectionVideos() {
   return (
     <Section tone="gray">
-      <SectionTitle eyebrow="Casos de inspeção" title="Inspeções realizadas em campo" />
+      <SectionTitle eyebrow="Casos de inspeção" title="Casos de Inspeção em Linha de Vida para Telhado" />
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         <YT id="S0WAqhzKOAY" title="Inspeção em Coberturas" />
         <YT id="0ZdujswYjzA" title="Inspeção em Escadas" />

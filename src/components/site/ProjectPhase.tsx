@@ -14,7 +14,7 @@ export function ProjectPhase() {
       <SectionTitle
         eyebrow="Fase de projeto"
         title="Etapas do desenvolvimento técnico"
-        subtitle="Antes da execução, estruturamos todo o projeto para garantir precisão, segurança e eficiência."
+        subtitle="Antes da execução, estruturamos todo o projeto para garantir precisão, segurança e eficiência. Todo projeto de linha de vida para telhado passa por análise estrutural, estudo de cargas e definição dos pontos de ancoragem para garantir máxima segurança."
       />
       <ol className="relative mt-14 mx-auto max-w-3xl">
         <span aria-hidden className="absolute left-5 top-2 bottom-2 w-px bg-accent/40 sm:left-1/2 sm:-translate-x-1/2" />

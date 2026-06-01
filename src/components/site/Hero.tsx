@@ -19,10 +19,11 @@ export function Hero() {
             Engenhar+ Soluções
           </p>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground">
-            Linha de Vida e Sistemas de Proteção Contra Quedas
+            Linha de Vida para Telhado
+            <span className="block text-accent">Proteção Contra Quedas</span>
           </h1>
           <p className="mt-5 text-lg text-primary-foreground/85 max-w-2xl">
-            Projeto, instalação e inspeção de sistemas de segurança para trabalho em altura, garantindo conformidade com normas e proteção total para sua equipe.
+            Adeque sua empresa e evite multas com projetos de linha de vida específicos para telhados.
           </p>
 
           <ul className="mt-8 space-y-3">
@@ -41,6 +42,10 @@ export function Hero() {
           <div className="mt-9">
             <CtaButton size="lg" />
           </div>
+
+          <p className="mt-6 rounded-lg border border-accent/40 bg-primary-foreground/5 px-4 py-3 text-sm font-medium text-primary-foreground/95">
+            Atuamos exclusivamente com projetos, inspeção e instalação. Não comercializamos peças, EPIs ou equipamentos avulsos.
+          </p>
 
           <p className="mt-8 text-sm text-primary-foreground/70">
             Referência no RS • Atendimento nacional • Projetos personalizados

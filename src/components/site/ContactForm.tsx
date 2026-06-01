@@ -8,7 +8,7 @@ export function ContactForm() {
         <SectionTitle
           eyebrow="Formulário"
           title="Fale com um especialista"
-          subtitle="Receba um diagnóstico técnico para sua empresa."
+          subtitle="Receba um diagnóstico técnico para sua empresa. Solicite uma avaliação técnica e descubra a melhor solução de linha de vida para telhado para sua empresa."
         />
         <div className="mt-10">
           <CtaButton size="lg">Quero solicitar um orçamento</CtaButton>

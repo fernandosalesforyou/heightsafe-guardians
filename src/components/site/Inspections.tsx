@@ -22,7 +22,7 @@ export function Inspections() {
       <SectionTitle
         eyebrow="Inspeções Linha de Vida"
         title="Inspeções técnicas especializadas"
-        subtitle="Realizamos inspeções completas para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com as normas vigentes."
+        subtitle="Realizamos inspeções completas para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com as normas vigentes. Realizamos inspeções periódicas em sistemas de linha de vida para telhado, verificando a integridade dos componentes, ancoragens e condições gerais de segurança."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {cards.map((c, i) => (
@@ -53,14 +53,14 @@ export function Anchors() {
     <Section tone="gray">
       <SectionTitle
         eyebrow="Pontos de ancoragem"
-        title="Projeto, instalação e inspeção de ancoragem"
-        subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem conforme normas técnicas, garantindo segurança estrutural e proteção total para trabalhos em altura."
+        title="Projeto e Instalação de Linha de Vida para Telhado"
+        subtitle="Projetamos e instalamos sistemas completos de linha de vida para telhado, garantindo proteção contra quedas, conformidade normativa e segurança operacional."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {[
-          { t: "Projeto técnico", d: "Dimensionamento estrutural com memorial de cálculo, ART e desenhos técnicos." },
-          { t: "Instalação certificada", d: "Execução por equipe qualificada, com materiais homologados e testes de carga." },
-          { t: "Inspeção periódica", d: "Verificação de integridade, fixação e conformidade conforme exigências da NR-35." },
+          { t: "Projeto personalizado", d: "Desenvolvimento técnico conforme a estrutura do telhado e necessidades da operação." },
+          { t: "Instalação especializada", d: "Execução realizada por profissionais capacitados e em conformidade com as normas." },
+          { t: "Inspeção e documentação", d: "Entrega completa da documentação técnica e recomendações de manutenção." },
         ].map((c) => (
           <div key={c.t} className="rounded-2xl border border-border bg-card p-8 shadow-sm hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-semibold text-primary">{c.t}</h3>
@@ -100,6 +100,9 @@ export function NR35() {
         </ul>
         <p className="mt-8 text-base text-muted-foreground">
           A falta de adequação pode gerar multas, interdições e riscos graves à sua operação.
+        </p>
+        <p className="mt-4 text-base text-muted-foreground">
+          A linha de vida para telhado é uma das principais medidas de proteção exigidas para atividades realizadas sobre coberturas, reduzindo riscos de acidentes e garantindo conformidade com a NR-35.
         </p>
         <div className="mt-8 text-center">
           <CtaButton size="lg" />

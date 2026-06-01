@@ -4,7 +4,7 @@ import { CtaButton } from "./CtaButton";
 const items = [
   {
     title: "Linha de Vida Flexível Horizontal",
-    text: "Sistema com cabo de aço aplicado em telhados e estruturas horizontais. Permite mobilidade contínua com segurança durante deslocamentos em altura — ideal para manutenções e inspeções frequentes.",
+    text: "Sistema ideal para telhados metálicos, fibrocimento, concreto e coberturas industriais. Permite deslocamento seguro dos trabalhadores durante inspeções, manutenções e serviços em altura.",
   },
   {
     title: "Linha de Vida Horizontal (Overhead)",
@@ -25,7 +25,8 @@ export function Types() {
     <Section id="projeto" tone="white">
       <SectionTitle
         eyebrow="Tipos de Linha de Vida"
-        title="Soluções completas em sistemas de proteção contra quedas"
+        title="Linha de Vida para Telhados Industriais e Comerciais"
+        subtitle="Somos especialistas em projetos, instalação e inspeção de linha de vida para telhado, desenvolvendo soluções seguras e personalizadas para cada tipo de cobertura."
       />
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((it, i) => (
